@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SharedCAB",
+    "slug": "SharedCAB",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android":{
+      "package": "com.pakistan.myapp",
+      "versionCode":1,
+      "permissions":[],
+      "icon":"./assets/icon.png"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
